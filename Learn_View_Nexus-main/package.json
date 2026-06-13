@@ -1,0 +1,25 @@
+{
+  "name": "learnview-nexus",
+  "version": "1.0.0",
+  "description": "Premium tutor management web app for LearnView.",
+  "main": "sw.js",
+  "scripts": {
+    "build": "node scripts/build-www.js",
+    "sync:android": "npm run build && npx cap sync android",
+    "apk:debug": "npm run sync:android && cd android && gradlew.bat assembleDebug",
+    "test": "node --check sw.js && node --check scripts/build-www.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/android": "^8.4.0",
+    "@capacitor/cli": "^8.4.0",
+    "@capacitor/core": "^8.4.0",
+    "@capacitor/filesystem": "^8.1.2",
+    "@capacitor/share": "^8.0.1",
+    "@capacitor/status-bar": "^8.0.2",
+    "html2pdf.js": "^0.14.0"
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">LearnView Nexus</string>
+    <string name="title_activity_main">LearnView Nexus</string>
+    <string name="package_name">za.co.learnview.nexus</string>
+    <string name="custom_url_scheme">za.co.learnview.nexus</string>
+</resources>
