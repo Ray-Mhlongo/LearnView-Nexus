@@ -29,18 +29,3 @@ LearnView Nexus is a comprehensive tutoring business management platform designe
 - PWA
 - Capacitor
 
-## Screenshots
-
-(add screenshots)
-
-## Architecture
-
-(add diagram)
-
-## Live Demo
-
-(link)
-
-## APK
-
-(link)
